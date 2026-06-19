@@ -1,0 +1,196 @@
+{
+  "personal": {
+    "name": "Hari Bashyal",
+    "role": "Full Stack Developer & Automation Engineer",
+    "tagline": "I build end-to-end web systems, automate the boring parts, and ship products that rank on Google.",
+    "location": "Kathmandu, Nepal",
+    "email": "hbashyal878@gmail.com",
+    "phone": "+977 9867341545",
+    "availability": "Open to full-time, contract, and remote roles",
+    "links": {
+      "github": "https://github.com/Bashyalhari583",
+      "linkedin": "https://www.linkedin.com/in/hari-bashyal-85926b2b2/",
+      "portfolio": "https://haribashyal.com.np",
+      "twitter": "https://x.com/bashyal_ha97385"
+    }
+  },
+  "about": {
+    "short": "Full-stack developer with hands-on experience building production web applications using React, Node.js, and MySQL. I pair clean engineering with n8n automation and SEO know-how to ship products that don't just work, they grow.",
+    "long": "I'm a BSc CSIT graduate with internship and industry experience covering full-stack development, workflow automation, QA, and SEO. My recent work includes architecting a hospital management system at Synthbit Group Pvt. Ltd. and driving SEO and automation initiatives at a media and marketing company. I'm comfortable owning a feature from database schema to deployed UI, and I take real pride in code that's tested, indexable, and easy for the next developer to read."
+  },
+  "skills": {
+    "frontend": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "MySQL",
+      "MongoDB",
+      "Authentication & JWT"
+    ],
+    "automation_qa": [
+      "n8n",
+      "Manual QA",
+      "Test case design",
+      "API testing (Postman)",
+      "Bug tracking"
+    ],
+    "devops_deployment": [
+      "Git & GitHub",
+      "Vercel",
+      "VPS / cPanel",
+      "Nginx basics",
+      "CI/CD workflows"
+    ],
+    "seo_growth": [
+      "On-page SEO",
+      "Technical SEO",
+      "AEO (Answer Engine Optimization)",
+      "GEO (Generative Engine Optimization)",
+      "Google Analytics",
+      "Search Console",
+      "Schema markup"
+    ],
+    "other": ["Laravel", "PHP", "Python", "Linux command line", "Agile / Scrum"]
+  },
+  "projects": [
+    {
+      "name": "Hospital Management System",
+      "role": "Full Stack Developer (Internship)",
+      "company": "Synthbit Group Pvt. Ltd.",
+      "stack": ["React", "Node.js", "Express", "MySQL", "Tailwind CSS"],
+      "problem": "Manual patient registration, appointment scheduling, and billing were slowing the hospital and causing data inconsistencies across departments.",
+      "outcomes": [
+        "Built role-based modules for reception, doctors, pharmacy, and admin",
+        "Reduced patient check-in time by an estimated 60% through a streamlined React UI",
+        "Designed normalized MySQL schema covering patients, appointments, prescriptions, and invoices",
+        "Implemented JWT auth and audit logging for sensitive operations"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Marketing Automation Suite (n8n)",
+      "role": "Automation Engineer",
+      "company": "Media & Marketing Company",
+      "stack": [
+        "n8n",
+        "Node.js",
+        "Google Sheets API",
+        "WhatsApp Cloud API",
+        "Gmail API"
+      ],
+      "problem": "The marketing team was spending hours daily on lead routing, follow-up emails, and reporting across multiple disconnected tools.",
+      "outcomes": [
+        "Designed 10+ n8n workflows orchestrating lead capture, CRM updates, and omnichannel follow-ups",
+        "Cut manual reporting time by roughly 8 hours per week",
+        "Built a Global Error Trigger workflow so failures alert the team on WhatsApp within seconds",
+        "Documented every workflow with input/output schemas so non-developers can adjust copy safely"
+      ],
+      "link": ""
+    },
+    {
+      "name": "SEO & GEO Optimization Engine",
+      "role": "SEO Engineer",
+      "company": "Media & Marketing Company",
+      "stack": ["Next.js", "Schema.org", "Google Search Console", "GA4"],
+      "problem": "Client sites were technically functional but invisible to both Google and AI answer engines (ChatGPT, Perplexity, Gemini).",
+      "outcomes": [
+        "Implemented structured data (Article, FAQ, LocalBusiness) across client properties",
+        "Rewrote content architecture for AEO so answers are extractable by LLM-based search",
+        "Improved organic impressions by a measurable double-digit percentage within 90 days",
+        "Built repeatable on-page audit checklist now used by the wider content team"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Portfolio & Personal Site",
+      "role": "Designer & Developer",
+      "company": "Self",
+      "stack": ["Next.js 14", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "problem": "Needed a recruiter-friendly, fast-loading, fully responsive personal site that demonstrates real frontend taste.",
+      "outcomes": [
+        "Server-rendered Next.js app with sub-second initial paint on 4G",
+        "Fully responsive across mobile, tablet, and desktop with no layout shift",
+        "Accessible color contrast and keyboard navigation throughout",
+        "JSON-driven content so updates take minutes, not deploys"
+      ],
+      "link": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "Dream Media & Marketing Company",
+      "role": "Full Stack & Automation Developer",
+      "period": "2024 — Present",
+      "location": "Kathmandu, Nepal",
+      "responsibilities": [
+        "Own end-to-end build of client web properties using Next.js, React, and Laravel",
+        "Architect n8n automation pipelines for lead ops, content publishing, and reporting",
+        "Lead on-page SEO, technical SEO, and AEO/GEO optimization for client sites",
+        "Coordinate with content, design, and sales teams on launch timelines"
+      ],
+      "achievements": [
+        "Shipped 5+ client websites with Lighthouse performance scores above 90",
+        "Reduced repetitive marketing ops by 30+ hours per week through n8n workflows",
+        "Established the company's first SEO audit and reporting standard"
+      ]
+    },
+    {
+      "company": "Synthbit Group Pvt. Ltd.",
+      "role": "Full Stack Developer Intern",
+      "period": "2023 — 2024",
+      "location": "Kathmandu, Nepal",
+      "responsibilities": [
+        "Built features for a Hospital Management System using React, Node.js, and MySQL",
+        "Wrote REST APIs, designed relational schemas, and implemented role-based access",
+        "Participated in code reviews, sprint planning, and manual QA cycles"
+      ],
+      "achievements": [
+        "Delivered 3 production modules (reception, billing, pharmacy) on schedule",
+        "Reduced API response times on patient lookup by ~40% via indexed queries",
+        "Authored internal API documentation now used during onboarding"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc CSIT (Computer Science & Information Technology)",
+      "institution": "Tribhuvan University (affiliated college)",
+      "period": "Graduated",
+      "highlights": [
+        "Coursework: Data Structures, DBMS, Operating Systems, Software Engineering, Web Tech, AI",
+        "Final-year project: Web-based system using React, Node.js, and MySQL"
+      ]
+    }
+  ],
+  "certifications": [
+    "Self-directed learning in n8n workflow automation",
+    "Ongoing: Advanced React patterns and Next.js App Router",
+    "Ongoing: Generative Engine Optimization (GEO) and AEO techniques",
+    "Ongoing: Python for automation and data scripting"
+  ],
+  "softSkills": [
+    "Clear written communication",
+    "Ownership and follow-through",
+    "Cross-team collaboration",
+    "Pragmatic problem solving",
+    "Documentation-first mindset",
+    "Calm under deadline pressure"
+  ],
+  "interests": [
+    "Open-source tooling",
+    "Workflow automation",
+    "AI-assisted development",
+    "Hiking in the Nepali hills",
+    "Reading on systems design"
+  ],
+  "elevatorPitch": "I'm Hari Bashyal — a BSc CSIT full-stack developer who ships React/Node.js products end to end, automates the workflow around them with n8n, and makes sure both Google and AI answer engines can actually find them. I've delivered a hospital management system in production, built marketing automations that save teams 30+ hours a week, and I'm now looking for a role where I can own real features from database to deployment."
+}
