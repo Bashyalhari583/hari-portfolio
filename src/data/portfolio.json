@@ -59,14 +59,26 @@
       "Search Console",
       "Schema markup"
     ],
-    "other": ["Laravel", "PHP", "Python", "Linux command line", "Agile / Scrum"]
+    "other": [
+      "Laravel",
+      "PHP",
+      "Python",
+      "Linux command line",
+      "Agile / Scrum"
+    ]
   },
   "projects": [
     {
       "name": "Hospital Management System",
       "role": "Full Stack Developer (Internship)",
       "company": "Synthbit Group Pvt. Ltd.",
-      "stack": ["React", "Node.js", "Express", "MySQL", "Tailwind CSS"],
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "Tailwind CSS"
+      ],
       "problem": "The hospital was doing patient registration, appointments, and billing by hand on paper. This caused mistakes and wasted everyone's time.",
       "outcomes": [
         "Built separate sections for reception, doctors, pharmacy, and admin staff",
@@ -80,7 +92,11 @@
       "name": "CryptoCloudNews",
       "role": "Full Stack Developer",
       "company": "Freelance",
-      "stack": ["React", "Node.js", "REST APIs"],
+      "stack": [
+        "React",
+        "Node.js",
+        "REST APIs"
+      ],
       "problem": "The client wanted one clean page that shows live crypto prices, news, and upcoming events, instead of jumping between different sites.",
       "outcomes": [
         "Built a live dashboard showing prices for major coins like Bitcoin and Ethereum",
@@ -90,10 +106,15 @@
       "link": "https://cryptocloudnews.com"
     },
     {
-      "name": "Vaidhya Herbals — E-commerce Website",
+      "name": "Vaidhya Herbals — E-commerce Website (In Progress)",
       "role": "Full Stack Developer",
       "company": "Freelance",
-      "stack": ["React", "Node.js", "MySQL", "Ecommerce Website"],
+      "stack": [
+        "React",
+        "Node.js",
+        "MySQL",
+        "Ecommerce Website"
+      ],
       "problem": "Vaidhya Herbals sells herbal products from Nepal, but had no way to sell online — customers could only buy in person.",
       "outcomes": [
         "Built the full online shop — product pages, cart, and checkout",
@@ -106,7 +127,11 @@
       "name": "MiChe Auto Nepal — AI Chatbot",
       "role": "Full Stack Developer",
       "company": "Freelance",
-      "stack": ["JavaScript", "Node.js", "API Development"],
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "API Development"
+      ],
       "problem": "Customers had a lot of questions about bikes, prices, and orders, and the sales team couldn't answer everyone fast enough.",
       "outcomes": [
         "Built an AI chatbot that answers customer questions about products and pricing",
@@ -139,7 +164,12 @@
       "name": "SEO & GEO Optimization",
       "role": "SEO Engineer",
       "company": "Dreams Media and Marketing",
-      "stack": ["Next.js", "Schema.org", "Google Search Console", "GA4"],
+      "stack": [
+        "Next.js",
+        "Schema.org",
+        "Google Search Console",
+        "GA4"
+      ],
       "problem": "Client websites worked fine, but Google and AI tools like ChatGPT and Perplexity weren't finding or showing them.",
       "outcomes": [
         "Added structured data (schema) so Google understands the pages better",
@@ -153,7 +183,12 @@
       "name": "Portfolio & Personal Site",
       "role": "Designer & Developer",
       "company": "Self",
-      "stack": ["Next.js 14", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
       "problem": "I needed a fast, clean personal website that shows my real work, not just a resume turned into a webpage.",
       "outcomes": [
         "Loads fast, even on slower phone internet",
@@ -162,6 +197,25 @@
         "All content comes from one file, so I can update it in minutes"
       ],
       "link": "https://haribashyal.com.np"
+    },
+    {
+      "name": "BookMandu",
+      "role": "Full Stack Developer (College Project)",
+      "company": "Butwal Multiple Campus — Final Year Project",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "SQL"
+      ],
+      "problem": "Students often have old books they don't need anymore, but there was no easy way to sell them to other students.",
+      "outcomes": [
+        "Built a simple website where students can list books for sale and buy books from others",
+        "Built login, book listings, and search using PHP and SQL",
+        "Made this as my 7th semester final year college project"
+      ],
+      "link": ""
     }
   ],
   "experience": [
@@ -185,8 +239,8 @@
     {
       "company": "Synthbit Group Pvt. Ltd.",
       "role": "Full Stack Developer Intern",
-      "period": "February 2025 — May 2025",
-      "location": "Kathmandu, Nepal",
+      "period": "February 2025 — July 2025",
+      "location": "Rupandehi, Nepal",
       "responsibilities": [
         "Built features for a Hospital Management System using React, Node.js, and MySQL",
         "Wrote REST APIs, designed the database, and set up role-based access",
