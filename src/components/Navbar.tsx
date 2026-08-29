@@ -1,7 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, FileText } from 'lucide-react';
+import ResumeModal from './ResumeModal';
 
 const NAV_LINKS = [
   { href: '#about', label: 'About' },
@@ -14,6 +15,7 @@ const NAV_LINKS = [
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [resumeOpen, setResumeOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -57,12 +59,22 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <a
-            href="#contact"
-            className="hidden rounded-full border border-accent/50 bg-accent/10 px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] text-accent transition-all hover:bg-accent hover:text-ink-950 md:inline-block"
-          >
-            Hire me
-          </a>
+          <div className="hidden items-center gap-3 md:flex">
+            <button
+              type="button"
+              onClick={() => setResumeOpen(true)}
+              className="inline-flex items-center gap-2 rounded-full border border-white/10 px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] text-ink-300 transition-all hover:border-accent hover:text-accent"
+            >
+              <FileText size={14} />
+              Resume
+            </button>
+            <a
+              href="#contact"
+              className="rounded-full border border-accent/50 bg-accent/10 px-5 py-2 font-mono text-xs uppercase tracking-[0.15em] text-accent transition-all hover:bg-accent hover:text-ink-950"
+            >
+              Hire me
+            </a>
+          </div>
 
           <button
             type="button"
@@ -99,15 +111,30 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a
-            href="#contact"
-            onClick={() => setOpen(false)}
-            className="mt-12 inline-block w-fit rounded-full border border-accent bg-accent px-6 py-3 font-mono text-xs uppercase tracking-[0.15em] text-ink-950"
-          >
-            Hire me →
-          </a>
+          <div className="mt-12 flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              onClick={() => {
+                setOpen(false);
+                setResumeOpen(true);
+              }}
+              className="inline-flex w-fit items-center gap-2 rounded-full border border-white/10 px-6 py-3 font-mono text-xs uppercase tracking-[0.15em] text-ink-100"
+            >
+              <FileText size={14} />
+              Resume
+            </button>
+            <a
+              href="#contact"
+              onClick={() => setOpen(false)}
+              className="inline-block w-fit rounded-full border border-accent bg-accent px-6 py-3 font-mono text-xs uppercase tracking-[0.15em] text-ink-950"
+            >
+              Hire me →
+            </a>
+          </div>
         </div>
       </div>
+
+      <ResumeModal open={resumeOpen} onClose={() => setResumeOpen(false)} />
     </>
   );
 }
