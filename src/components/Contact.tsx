@@ -1,5 +1,5 @@
 import { portfolio } from '@/lib/portfolio';
-import { Mail, MapPin, Phone, Github, Linkedin, Globe, ArrowUpRight } from 'lucide-react';
+import { Mail, MapPin, Phone, Github, Linkedin, Globe, Twitter, ArrowUpRight } from 'lucide-react';
 
 export default function Contact() {
   const { personal } = portfolio;
@@ -103,6 +103,19 @@ export default function Contact() {
           >
             <Globe size={14} />
             Portfolio
+            <ArrowUpRight
+              size={12}
+              className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            />
+          </a>
+          <a
+            href={personal.links.twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 rounded-full border border-white/10 px-5 py-2.5 font-mono text-xs uppercase tracking-[0.15em] text-ink-200 transition-all hover:border-accent hover:text-accent"
+          >
+            <Twitter size={14} />
+            X / Twitter
             <ArrowUpRight
               size={12}
               className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"

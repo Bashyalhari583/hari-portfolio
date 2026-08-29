@@ -24,7 +24,7 @@ export default function Skills() {
             </h2>
           </div>
           <p className="max-w-md text-base text-ink-400 text-pretty md:text-lg">
-            Comfortable across the full lifecycle — from schema design to deployed UI to indexable content.
+            I work on everything — from the database, to what people see on screen, to making sure Google can find it.
           </p>
         </div>
 

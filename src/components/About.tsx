@@ -10,7 +10,7 @@ export default function About() {
           <div className="lg:col-span-4">
             <p className="label">01 — About</p>
             <h2 className="mt-3 font-display text-display-lg font-medium text-balance">
-              Engineer who <em className="text-accent not-italic">ships</em>, not just commits.
+              I don&apos;t just write code. I <em className="text-accent not-italic">finish</em> what I build.
             </h2>
           </div>
 

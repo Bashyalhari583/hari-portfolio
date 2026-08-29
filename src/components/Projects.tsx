@@ -11,11 +11,11 @@ export default function Projects() {
           <div>
             <p className="label">03 — Selected work</p>
             <h2 className="mt-3 font-display text-display-lg font-medium">
-              Things I&apos;ve <em className="text-accent not-italic">shipped</em>.
+              Things I&apos;ve <em className="text-accent not-italic">built</em>.
             </h2>
           </div>
           <p className="max-w-md text-base text-ink-400 text-pretty md:text-lg">
-            A short list of recent projects across full-stack, automation, and SEO.
+            A few projects I&apos;ve built recently — websites, automations, and SEO work.
           </p>
         </div>
 

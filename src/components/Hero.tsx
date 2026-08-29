@@ -81,7 +81,7 @@ export default function Hero() {
               </div>
               <div className="text-ink-400">
                 <span className="font-mono text-xs uppercase tracking-[0.15em]">
-                  BSc CSIT · 2+ yrs experience
+                  BSc CSIT · 1+ yr experience
                 </span>
               </div>
             </div>
