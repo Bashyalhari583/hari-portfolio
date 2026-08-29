@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { ArrowDownRight, MapPin } from 'lucide-react';
 import { portfolio } from '@/lib/portfolio';
+import ExperienceCounter from './ExperienceCounter';
 
 export default function Hero() {
   const { personal } = portfolio;
@@ -80,9 +81,7 @@ export default function Hero() {
                 </span>
               </div>
               <div className="text-ink-400">
-                <span className="font-mono text-xs uppercase tracking-[0.15em]">
-                  BSc CSIT · 1+ yr experience
-                </span>
+                <ExperienceCounter />
               </div>
             </div>
           </div>
